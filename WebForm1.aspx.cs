@@ -14,11 +14,10 @@ namespace cookies319376
 
         }
 
-        protected void btnSave_Click(object sender, EventArgs e)
+        protected void btnConfirm_Click(object sender, EventArgs e)
         {
-            //Save the cookies
-            Response.Cookies["ddlCategory"].Value = ddlCategory.Text;
-            Response.Cookies["ddlSupplier"].Value = ddlSuplier.Text;
+            Response.Cookies["ddlCategory"].Value = ddlCategory.SelectedValue;
+            Response.Cookies["ddlSupplier"].Value = ddlSupplier.SelectedValue;
             Response.Cookies["strProduct"].Value = txtProduct.Text;
             Response.Cookies["strDescription"].Value = TextArea1.InnerText;
             Response.Cookies["strImage"].Value = txtImage.Text;
@@ -26,21 +25,8 @@ namespace cookies319376
             Response.Cookies["bytNumberInStock"].Value = txtNumberInStock.Text;
             Response.Cookies["bytNumberOnOrder"].Value = txtNumberOnOrder.Text;
             Response.Cookies["bytReorderLevel"].Value = txtReorderLevel.Text;
-            // Go to the confirmation page.
+
             Response.Redirect("ProductSaveCookies.aspx");
-
-
-
-        }
-
-        protected void txtDescription_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        protected void txtCategory_TextChanged(object sender, EventArgs e)
-        {
-
         }
     }
 }

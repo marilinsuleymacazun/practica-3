@@ -11,7 +11,7 @@ namespace cookies319376
 {
 
 
-    public partial class WebForm1
+    public partial class ProductSaveCookies
     {
 
         /// <summary>
@@ -87,13 +87,13 @@ namespace cookies319376
         protected global::System.Web.UI.WebControls.Label Label4;
 
         /// <summary>
-        /// Control txtProduct.
+        /// Control lblProduct.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtProduct;
+        protected global::System.Web.UI.WebControls.Label lblProduct;
 
         /// <summary>
         /// Control Label5.
@@ -105,13 +105,13 @@ namespace cookies319376
         protected global::System.Web.UI.WebControls.Label Label5;
 
         /// <summary>
-        /// Control TextArea1.
+        /// Control textArea1.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlTextArea TextArea1;
+        protected global::System.Web.UI.HtmlControls.HtmlTextArea textArea1;
 
         /// <summary>
         /// Control Label6.
@@ -123,13 +123,13 @@ namespace cookies319376
         protected global::System.Web.UI.WebControls.Label Label6;
 
         /// <summary>
-        /// Control txtImage.
+        /// Control lblImage.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtImage;
+        protected global::System.Web.UI.WebControls.Label lblImage;
 
         /// <summary>
         /// Control Label7.
@@ -141,13 +141,13 @@ namespace cookies319376
         protected global::System.Web.UI.WebControls.Label Label7;
 
         /// <summary>
-        /// Control txtPrice.
+        /// Control lblPrice.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtPrice;
+        protected global::System.Web.UI.WebControls.Label lblPrice;
 
         /// <summary>
         /// Control Label8.
@@ -159,13 +159,22 @@ namespace cookies319376
         protected global::System.Web.UI.WebControls.Label Label8;
 
         /// <summary>
-        /// Control txtNumberInStock.
+        /// Control lblNumberInStock.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtNumberInStock;
+        protected global::System.Web.UI.WebControls.Label lblNumberInStock;
+
+        /// <summary>
+        /// Control lblValueInStock.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblValueInStock;
 
         /// <summary>
         /// Control Label9.
@@ -177,13 +186,22 @@ namespace cookies319376
         protected global::System.Web.UI.WebControls.Label Label9;
 
         /// <summary>
-        /// Control txtNumberOnOrder.
+        /// Control lblNumberOnOrder.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtNumberOnOrder;
+        protected global::System.Web.UI.WebControls.Label lblNumberOnOrder;
+
+        /// <summary>
+        /// Control lblValueOnOrder.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblValueOnOrder;
 
         /// <summary>
         /// Control Label10.
@@ -195,21 +213,30 @@ namespace cookies319376
         protected global::System.Web.UI.WebControls.Label Label10;
 
         /// <summary>
-        /// Control txtReorderLevel.
+        /// Control lblReorderLevel.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtReorderLevel;
+        protected global::System.Web.UI.WebControls.Label lblReorderLevel;
 
         /// <summary>
-        /// Control btnConfirm.
+        /// Control btnSave.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnConfirm;
+        protected global::System.Web.UI.WebControls.Button btnSave;
+
+        /// <summary>
+        /// Control btnBack.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button btnBack;
     }
 }
